@@ -1,0 +1,15 @@
+body
+{
+    background-color: #F78080;
+}
+
+
+.navbar
+{
+    background-color: #FF0000 !important;
+}
+
+.delete, .edit
+{
+    color: #FF0000;
+}

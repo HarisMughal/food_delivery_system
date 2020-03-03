@@ -1,0 +1,20 @@
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+	<a class="navbar-brand" href="admin-index.php">Admin Panel</a>
+</div>
+
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                      <li>
+                            <a href="#"><?php echo "Welcome " . $_SESSION['aname']; ?></a>
+                        </li>
+                        <li>
+                            <a href="../logout.php"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        </li>
+             
+            </ul>

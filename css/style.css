@@ -1,0 +1,340 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.a {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url("../images/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.b {
+    
+    background-color: #E2C5C1;
+    height: 890px;
+}
+
+.left-heading {
+    margin-top:300px;
+    color: red;
+    font-weight: bolder;
+}
+
+
+.left-para {
+    color: red;
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+
+.signup-icon, .login-icon {
+    color: red;
+
+}
+
+
+.form-class {
+    margin-top: 50px; 
+}
+
+.form-control {
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid red;
+    
+}
+.sign-in {
+    color: red;
+}
+
+
+.border {
+    border: 1px solid red !important;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+   
+}
+.border:hover {
+    background: red;
+}
+.border:hover .fb-icon,.border:hover .google-icon,.border:hover .in-icon {
+    color: whitesmoke;
+    
+ }
+.fb-icon {
+    color: red;
+    
+    font-weight: bold;
+    
+}
+
+.in-icon {
+    color: red;
+    padding: 0px 2px;
+    font-weight: bold;
+    
+}
+.google-icon {
+    color: red;
+    padding: 0px 1px;
+    font-weight: bold;
+}
+
+.change-button {
+    border: 2px solid red;
+    color: red;
+    border-radius: 0px;
+    font-size: 17px;
+    background: transparent;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+button:focus,button:active {
+    background: transparent;
+    border: 2px solid 02001E !important;
+    box-shadow: none !important;
+
+ }
+
+.change-button:hover {
+    background: red;
+    border: 2px solid red;
+    color: whitesmoke;
+ 
+}
+
+.label-color {
+    color: red;
+    font-weight: bold;
+}
+
+.forgot {
+    color: red;
+    font-weight: bold;
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background: transparent;
+  border: 1px solid red !important;
+  box-shadow: none;
+  color: rgb(27, 75, 114);
+}
+
+input {
+    text-indent: 27px;
+}
+  
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #031E49 !important;
+}
+.custom-control-label::after  {
+    border: 1px solid red;
+    border-radius: 3px;
+}
+  
+.d-flex i {
+    color: red;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.radioContainer {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    color: red;
+    user-select: none;
+}
+
+.radioContainer input {
+    display: none;
+}
+
+.radioContainer .circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: aliceblue;
+    border: 1px solid red;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border-radius: 50%;
+}
+
+.radioContainer:hover .circle {
+    background-color: #ccc;
+}
+
+.radioContainer input:checked + .circle {
+    background-color: red;
+}
+
+.radioContainer input:checked + .circle::after {
+    content: "";
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    top: 48%;
+    transform: translate(-48%,-48%); 
+}
+
+.male {
+    margin-left: 20px;
+    color: red; 
+}
+
+.female {
+    margin-left: 35px;
+    color: red; 
+}
+
+a ,a:hover{
+    text-decoration: none !important;
+    color: red;
+    
+
+}
+
+.signup {
+    color: red !important;
+}
+
+.bg-modal {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+
+}
+
+.modal-content {
+    width: auto;
+    height: auto;
+    background-color: #E8F0F7;
+}
+
+.login {
+    color: red;
+}
+
+.modal-footer .btn {
+    border: 2px solid red;
+    color: red;
+    border-radius: 0px;
+    font-size: 17px;
+    background: transparent;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+button:focus,button:active {
+    background: transparent;
+    border: 2px solid 02001E !important;
+    box-shadow: none !important;
+
+ }
+
+.change-button:hover {
+    background: red;
+    border: 2px solid red;
+    color: whitesmoke;
+ 
+}
+
+@media (max-width: 1200px) {
+    .form-class {
+        margin-top: 25px; 
+    }
+
+    .change-button {
+        margin-top: 0px !important;
+
+    }
+
+    .already-account {
+        margin-top: 15px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .form-class {
+        margin-top: 15px; 
+    }
+
+    .change-button {
+        margin-top: -20px !important;
+
+    }
+
+    .already-account {
+        margin-top: 10px !important;
+    }
+
+    .icons {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .signup-with {
+        margin-top: 10px !important;
+        margin-bottom: 0px !important; 
+    }
+
+    .email-input, .password-input, .cnic-input, .phone-input  {
+        margin-bottom: -10px !important;
+        
+    }
+}
+
+@media (max-width: 350px) {
+    .form-class {
+        margin-top: 5px; 
+    }
+    .already-account {
+        margin-top: 0px !important;
+    }
+
+    .icons {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .signup-with {
+        margin-top: 7px !important;
+        margin-bottom: 0px !important; 
+    }
+
+    .email-input, .password-input, .cnic-input, .phone-input  {
+        margin-bottom: -19px !important;
+        
+    }
+    .labell {
+        margin-top: 4px !important;
+    }
+
+    .signup-button {
+        margin-top: 0px !important;
+    }
+
+    .change-button {
+        margin: 0px !important;
+    }
+}
